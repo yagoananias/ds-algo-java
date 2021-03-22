@@ -27,7 +27,7 @@ public class NomeAnimal {
     for(int i = 0; i < animais.length - 1; i++) {
       boolean estaOrdenado = true;
       
-      for(int j = 0; j < animais.length; j++) {
+      for(int j = 0; j < animais.length - 1 - i; j++) {
         if(animais[j].getNome().compareToIgnoreCase(animais[j + 1].getNome()) > 0) {
           Animal aux = animais[j];
           animais[j] = animais[j + 1];
