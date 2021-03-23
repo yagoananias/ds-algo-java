@@ -20,7 +20,7 @@ public class NomeAnimal {
    * Método que ordena um vetor de Animal utilizando o algortimo Bubble Sort,
    * a ordenação é feita de acordo com o nome de cada animal.
    * 
-   * @param animais - Vetor de Animal.
+   * @param animais - É o Vetor de Animal.
    */
   
   public void ordenarAnimaisPorNome(Animal[] animais) {
