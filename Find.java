@@ -1,5 +1,4 @@
- // find item with key
-// (assumes table not full)
+ // find item with key and (assumes table not full)
 public DataItem find(int key) {
   // hash the key
   int hashVal = hashFunc(key); 
