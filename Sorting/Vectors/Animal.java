@@ -1,3 +1,4 @@
+//classe pura
 public class Animal {
   private String especie;
   private String nome;
